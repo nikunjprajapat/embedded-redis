@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940f7774-c603-43e9-a544-3927ab07431d" name="Default Changelist" comment="" />
+    <list default="true" id="940f7774-c603-43e9-a544-3927ab07431d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/np/embedded/redis/UserRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/np/embedded/redis/UserRepositoryIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/np/embedded/redis/configuration/RedisConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/np/embedded/redis/configuration/RedisConfiguration.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dE3tWA4yMRns47oZftDtbJexb9" />
   <component name="ProjectViewState">
@@ -26,6 +33,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/np/embedded/redis" />
@@ -44,7 +52,22 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryIntegrationTest.shouldSaveUser_toRedis">
+  <component name="RunManager" selected="JUnit.UserRepositoryIntegrationTest">
+    <configuration name="UserRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="embedded-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.np.embedded.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.np.embedded.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.np.embedded.redis.UserRepositoryIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserRepositoryIntegrationTest.shouldSaveUser_toRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="embedded-redis" />
       <extension name="coverage">
@@ -76,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryIntegrationTest" />
         <item itemvalue="JUnit.UserRepositoryIntegrationTest.shouldSaveUser_toRedis" />
         <item itemvalue="Spring Boot.Application" />
       </list>
@@ -93,6 +117,7 @@
       <updated>1591976639643</updated>
       <workItem from="1591976645283" duration="489000" />
       <workItem from="1592324280555" duration="4398000" />
+      <workItem from="1594610412222" duration="1201000" />
     </task>
     <servers />
   </component>
@@ -108,22 +133,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="163" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1592367425326" />
-    <state width="1398" height="185" key="GridCell.Tab.0.bottom" timestamp="1592370347730">
+    <state width="1398" height="261" key="GridCell.Tab.0.bottom" timestamp="1594613378968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="185" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592370347730" />
-    <state width="1398" height="185" key="GridCell.Tab.0.center" timestamp="1592370347726">
+    <state width="1398" height="261" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594613378968" />
+    <state width="1398" height="261" key="GridCell.Tab.0.center" timestamp="1594613378966">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="185" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592370347726" />
-    <state width="1398" height="185" key="GridCell.Tab.0.left" timestamp="1592370347724">
+    <state width="1398" height="261" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594613378966" />
+    <state width="1398" height="261" key="GridCell.Tab.0.left" timestamp="1594613378964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="185" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592370347724" />
-    <state width="1398" height="185" key="GridCell.Tab.0.right" timestamp="1592370347728">
+    <state width="1398" height="261" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594613378964" />
+    <state width="1398" height="261" key="GridCell.Tab.0.right" timestamp="1594613378967">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="185" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592370347728" />
+    <state width="1398" height="261" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594613378967" />
     <state width="1398" height="185" key="GridCell.Tab.1.bottom" timestamp="1592370347736">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -156,16 +181,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="503" y="236" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1592367067060" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/np/embedded/redis/UserRepositoryIntegrationTest.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594613220332">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594613220332" />
   </component>
 </project>
