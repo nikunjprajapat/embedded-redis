@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="940f7774-c603-43e9-a544-3927ab07431d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/np/embedded/redis/UserRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/np/embedded/redis/UserRepositoryIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/np/embedded/redis/configuration/RedisConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/np/embedded/redis/configuration/RedisConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <updated>1591976639643</updated>
       <workItem from="1591976645283" duration="489000" />
       <workItem from="1592324280555" duration="4398000" />
-      <workItem from="1594610412222" duration="1201000" />
+      <workItem from="1594610412222" duration="1362000" />
     </task>
     <servers />
   </component>
