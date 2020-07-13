@@ -9,16 +9,40 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
         <!-- The main class to start by executing java -jar -->
-       <!-- <start-class>com.baeldung.boot.Application</start-class>-->
+        <!-- <start-class>com.baeldung.boot.Application</start-class>-->
         <git-commit-id-plugin.version>2.2.4</git-commit-id-plugin.version>
         <spock.version>1.2-groovy-2.4</spock.version>
         <gmavenplus-plugin.version>1.6</gmavenplus-plugin.version>
         <redis.version>0.7.2</redis.version>
         <spring.version>2.3.1.RELEASE</spring.version>
+        <version.maven.jgit.plugin>1.0-m5.1</version.maven.jgit.plugin>
     </properties>
 
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>${version.maven.jgit.plugin}</version>
+                <configuration>
+                    <noDeploy>true</noDeploy>
+                    <squash>false</squash>
+                    <pushReleases>false</pushReleases>
+                    <allowSnapshots>true</allowSnapshots>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <flowInitContext>
+                        <masterBranchName>master</masterBranchName>
+                        <developBranchName>dev</developBranchName>
+                        <releaseBranchPrefix>release-</releaseBranchPrefix>
+                        <versionTagPrefix>dt-hgw-</versionTagPrefix>
+                    </flowInitContext>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -55,7 +79,6 @@
             <scope>test</scope>
         </dependency>
         <!-- Spock & Spring -->
-
 
 
     </dependencies>
