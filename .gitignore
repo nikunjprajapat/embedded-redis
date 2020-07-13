@@ -3,6 +3,7 @@
 **/Workspace/java
 **/workspace/java
 **/.idea
+**/.idea/**
 **/*.pj
 **/.project
 **/.classpath
